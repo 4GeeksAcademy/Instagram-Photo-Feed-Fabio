@@ -14,7 +14,7 @@
   <nav class="navbar bg-white border-bottom py-3">
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <div class="text-start">
-        <i class="fa-brands fa-instagram fa-xl"></i>
+        <span class="fa-brands fa-instagram fa-xl"></span>
         <span class="navbar-brand mb-0 h1">Instagram</span>
       </div>
       <div class="d-flex flex-wrap justify-content-end gap-2">
@@ -22,7 +22,7 @@
           post</button>
         <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-            <i class="fa-solid fa-gear"></i>
+            <span class="fa-solid fa-gear"></span>
           </button>
           <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="#">Perfil</a></li>
@@ -45,7 +45,7 @@
           data-bs-target="#profile" type="button" role="tab" aria-selected="true"><i
             class="fa-regular fa-square-full"></i></button>
         <button class="flex-sm-fill text-sm-center nav-link" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid"
-          type="button" role="tab" aria-selected="false"><i class="fa-solid fa-table-cells"></i></button>
+          type="button" role="tab" aria-selected="false"><span class="fa-solid fa-table-cells"></span></button>
       </nav>
     </div>
   </div>
@@ -101,7 +101,7 @@
     </div>
 
     <!-- grid -->
-    <div class="tab-pane fade" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+    <div class="tab-pane fade mb-3" id="grid" role="tabpanel" aria-labelledby="grid-tab">
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
           <div class="ratio ratio-1x1">
@@ -148,9 +148,6 @@
 
   </div>
 
-  <div class="my-3">
-
-  </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
@@ -171,8 +168,8 @@
           <label class="form-label">Pie de foto:</label>
           <textarea class="form-control mb-3" placeholder="Añade un pie de foto a tu post..."></textarea>
 
-          <button class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
-          <button class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+          <button class="btn btn-light"><span class="fa-solid fa-camera"></span></button>
+          <button class="btn btn-light"><span class="fa-solid fa-location-dot"></span></button>
         </div>
 
         <div class="modal-footer">
